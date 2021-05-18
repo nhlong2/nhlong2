@@ -36,6 +36,7 @@ jobs:
           brew tap teamookla/speedtest
           brew update
           brew install speedtest --force
+          speedtest --accept-license
           speedtest
 # Example how to remove conflicting or old versions using brew 
 # brew uninstall speedtest --force
