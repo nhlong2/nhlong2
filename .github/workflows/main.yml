@@ -39,7 +39,7 @@ jobs:
           speedtest --accept-license
           speedtest
           brew install p7zip
-          7z b -mmt1
+          7z b
 # Example how to remove conflicting or old versions using brew 
 # brew uninstall speedtest --force
           
